@@ -23,7 +23,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: hystrix.stream
+        include: refresh
 ---
 server:
   port: 8094
